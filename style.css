@@ -27,7 +27,7 @@ body {
 .nft-card-container {
   background-color: hsl(216, 50%, 16%);
   color: hsl(0, 0%, 100%);
-  box-shadow: -1px 21px 11px 49px rgba(2, 12, 28, 0.365);
+  box-shadow: -2px 20px 6px 24px rgba(0, 37, 101, 0.153);
   font-size: 18px;
   width: 350px;
   height: 630px;
@@ -168,17 +168,6 @@ a.creator-link:hover {
   background-image: url(images/icon-view.svg);
 }
 
-.test:hover {
-  cursor: pointer;
-  background-color: rgba(220, 20, 60, 0.427);
-}
-
-.img__wrap {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
-
 .img__description {
   position: absolute;
   top: 0;
@@ -212,16 +201,16 @@ a.creator-link:hover {
     justify-content: center;
     align-items: center;
   }
-}
-.nft-card-container {
-  background-color: hsl(216, 50%, 16%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: -1px 21px 11px 49px rgba(2, 12, 28, 0.365);
-  font-size: 18px;
-  width: 350px;
-  height: 630px;
-  margin-top: 30px;
-  border-radius: 30px;
+  .nft-card-container {
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: -2px 20px 6px 24px rgba(0, 37, 101, 0.153);
+    font-size: 18px;
+    width: 350px;
+    height: 630px;
+    margin-top: 30px;
+    border-radius: 25px;
+  }
 }
 
 footer {
