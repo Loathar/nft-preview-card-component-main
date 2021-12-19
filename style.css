@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit, sans-serif;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nft-card-container {
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: -1px 21px 11px 49px rgba(2, 12, 28, 0.365);
+  font-size: 18px;
+  width: 350px;
+  height: 630px;
+  margin-top: 150px;
+  border-radius: 30px;
+}
+
+.nft-card-top {
+  display: flex;
+  justify-content: center;
+}
+
+.nft-card-bottom {
+  color: white;
+}
+.nft-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top: 20px;
+}
+/* SMALLER COMPONENTS  */
+
+.nft-img {
+  margin-top: 20px;
+
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+.nft-title {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.nft-info {
+  margin-top: 30px;
+  margin-left: 25px;
+  color: hsl(215, 51%, 70%);
+}
+
+.bottom-flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.eth-price {
+  color: hsl(178, 100%, 50%);
+}
+.eth-logo {
+  margin-right: 10px;
+}
+.border-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+.nft-deco-line {
+  width: 85%;
+  margin-top: 25px;
+  border-top: 2px solid hsl(215, 32%, 27%);
+}
+.creator-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.creator-txt {
+  color: hsl(215, 51%, 70%);
+}
+/*LINK STYLING */
+a.creator-link {
+  text-decoration: none;
+}
+a.creator-link:visited {
+  color: white;
+}
